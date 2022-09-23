@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminos importantes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="flex.css">
+</head>
+<body>
+    <div class="contenido">
+        <div class="card">
+            <h2 class="titulo">CONTENEDOR FLEXIBLE Y ELEMENTOS FLEXIBLES</h2>
+            <p>La propiedad <span class="titulo">display</span> con valor flex o inline-flex nos permite establecer un contenedor flexible. Los hijos del contenedor flexible se llaman elementos flexibles.</p>
+
+            <div class="concepto-dos-columnas">
+                <div class="codigo">
+                    <div class="codigo-html">
+                        <h4 class="titulo">HTML</h4>
+                        <pre>
+&lt;div class="contenedor"&gt;
+    &lt;div&gt;E1&lt;/div&gt;
+    &lt;div&gt;E2&lt;/div&gt;
+    &lt;div&gt;E3&lt;/div&gt;
+&lt;/div&gt;
+                        </pre>
+                    </div>
+                    <div class="codigo-css">
+                        <h4 class="titulo">CSS</h4>
+                        <pre>
+.contenedor{
+    display: flex;
+}
+                        </pre>
+                    </div>
+                </div>
+                <div class="imagen">
+                    <img src="imagenes/contenedor-elemento.png" class="img-center">
+                </div>
+            </div>
+
+
+
+            <h2 class="titulo">TERMINOS IMPORTANTES</h2>
+            <img src="imagenes/terminos.png" alt="IMG" class="img-center">
+            <h3>Eje principal (Anticucho de elementos flexibles)</h3>
+            <p>Es un eje a lo largo del cual se disponen los elementos flexibles. No es necesariamente horizontal; depende de la propiedad flex-direction</p>
+            <h3>Lado inicial del eje principal | Lado final del eje principal</h3>
+            <p>Los elementos flexibles se colocan dentro del contenedor comenzando desde el Lado inicial del eje principal yendo al lado final del eje principal</p>
+
+            <h3>Lineas flexibles</h3>
+            <p>Las líneas flexibles son construcciones imaginarias que alojan a los elementos flexibles. Pueden existir varias o una linea flexible dentro de un contenedor flexible</p>
+            <img src="imagenes/lineas-flexibles.png" alt="IMG" class="img-center">
+            <h3>Eje transversal (Anticucho de lineas flexibles)</h3>
+            <p>Es un eje a lo largo del cual se disponen las lineas flexibles. Es un eje perpendicular al eje principal. </p>
+            <h3>Lado inicial del eje transversal | Lado final del eje transversal</h3>
+            <p> Las líneas flexibles se colocan en el contenedor comenzando en el lado inicial del eje transversal yendo hacia el lado final del eje transversal. </p>
+
+            <h3>Tamaño principal</h3>
+            <p>El tamaño principal de un contenedor o un elemento flexible es su ancho (width) cuando el eje principal es horizontal y es su alto (height) cuando el eje principal es vertical.</p>
+            <h3>Tamaño transversal</h3>
+            <p>El tamaño transversal de un contenedor o un elemento flexible es su alto (height) cuando el eje transversal es vertical y es su ancho (width) cuando el eje transversal es horizontal.</p>
+        </div>
+    </div>
+</body>
+</html>

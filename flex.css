@@ -1,0 +1,39 @@
+.contenedor-flexible-1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+}
+.contenedor-flexible-2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-end;
+}
+
+.contenedor-flexible-3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    align-content: space-between;
+}
+
+.contenedor-flexible-4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.contenedor-flexible-5{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.contenedor-flexible-6{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
